@@ -2,8 +2,8 @@
 
 
 Route::get('/', function () {
-    //return view('home');
-    return ("GIT");
+    return view('home');
+
     
 
 });
