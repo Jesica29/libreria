@@ -1,0 +1,30 @@
+
+/*
+
+Selectores CSS3
+
+	CLASES .
+	ID     #
+	ETIQUETAS (nombre de la etiqueta) "tag"
+
+*/
+#slider-Libreria, #section2{
+
+	margin-top: 30px;
+	
+}
+
+ul{
+   
+    color: #00e5ff;
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: #00e5ff ;
+}
+
+.btn-social{
+	font-size: 20px;
+	margin-left: 20px;
+
+}

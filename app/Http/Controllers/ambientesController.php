@@ -18,4 +18,17 @@ class ambientesController extends Controller
    {
    		return $request->all();
    }
+
+   public function store(Request $request)
+   {
+		$usuario=\DB::table('usuario')->insert([
+				'nombre'=>  $request->nombre,
+				'email'=>   $request->email,
+				'nick'=>    $request->nick,
+				'password'=>$request->password,
+				'telefono'=>$request->telefono
+			]);
+		return $usuario;
+
+   }
 }
